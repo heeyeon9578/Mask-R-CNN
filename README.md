@@ -32,13 +32,13 @@ log("gt_mask", gt_mask)
 ```
 image ID: custom.Average stature-inside-Private-Bed_room(4646).jpg (265) /home/jupyter/maskrcnn_heeyeon/Mask_RCNN/dataset/val/Average stature-inside-Private-Bed_room(4646).jpg   
 Processing 1 images   
-image                    shape: (1024, 1024, 3)       min:    0.00000  max:  160.00000  uint8   
-molded_images            shape: (1, 1024, 1024, 3)    min: -123.70000  max:   55.10000  float64   
-image_metas              shape: (1, 21)               min:    0.00000  max: 1024.00000  int64   
-anchors                  shape: (1, 261888, 4)        min:   -0.35390  max:    1.29134  float32   
-gt_class_id              shape: (1,)                  min:    5.00000  max:    5.00000  int32   
-gt_bbox                  shape: (1, 4)                min:  396.00000  max:  755.00000  int32   
-gt_mask                  shape: (1024, 1024, 1)       min:    0.00000  max:    1.00000  uint8   
+image                       shape: (1024, 1024, 3)          min:    0.00000     max:  160.00000  uint8   
+molded_images               shape: (1, 1024, 1024, 3)       min: -123.70000     max:   55.10000  float64   
+image_metas                 shape: (1, 21)                  min:    0.00000     max: 1024.00000  int64   
+anchors                     shape: (1, 261888, 4)           min:   -0.35390     max:    1.29134  float32   
+gt_class_id                 shape: (1,)                     min:    5.00000     max:    5.00000  int32   
+gt_bbox                     shape: (1, 4)                   min:  396.00000     max:  755.00000  int32   
+gt_mask                     shape: (1024, 1024, 1)          min:    0.00000     max:    1.00000  uint8   
 
 
 
